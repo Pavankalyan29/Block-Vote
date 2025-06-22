@@ -35,10 +35,6 @@ Block-Vote/
 ```
 
 
-markdown
-Copy
-Edit
-
 ## 🧪 How to Run the Project
 
 ### Prerequisites
@@ -56,66 +52,41 @@ Edit
    ```bash
    git clone https://github.com/your-username/block-vote.git
    cd block-vote
-Install dependencies:
+2. Install dependencies:
 
-bash
-Copy
-Edit
-npm install
-Start Ganache and compile/deploy smart contracts:
+   ```bash
+   npm install
 
-bash
-Copy
-Edit
-truffle compile
-truffle migrate --reset
-Start the Node.js backend server:
+3. Start Ganache and compile/deploy smart contracts:
 
-bash
-Copy
-Edit
-npm run dev
-Open your browser and go to:
+   ```bash
+   truffle compile
+   truffle migrate --reset
 
-arduino
-Copy
-Edit
-http://localhost:3000
-Connect your MetaMask wallet to the local Ganache network.
 
-🔐 Smart Contract Features
-Admin can register voters and candidates
+4. Start the Node.js backend server:
+   ```bash
+   npm run dev
 
-Voters can vote only once
+5. Open your browser and go to:
+   ```bash
+   http://localhost:3000
 
-Contest phases controlled securely on-chain
+6. Connect your MetaMask wallet to the local Ganache network.
 
-Transparent result display
+## 🔐 Smart Contract Features
+- Admin can register voters and candidates
+- Voters can vote only once
+- Contest phases controlled securely on-chain
+- Transparent result display
 
-📧 Email Verification
+## 📧 Email Verification
 Email OTP is sent using NodeMailer to verify the user's identity during registration.
 
-📸 Screenshots
-Add screenshots of:
-
-Registration page
-
-Voting cards with Lottie animations
-
-Admin panel
-
-Final result screen
-
-👨‍💻 Developed By
-Pentam Pavan Kalyan
-
-📄 License
+## 📄 License
 This project is licensed under the MIT License.
 
-yaml
-Copy
-Edit
-
+```bash
 ---
 
 ✅ **Just copy-paste this into a file named `README.md`** in the root folder of your GitHub project.
